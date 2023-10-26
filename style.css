@@ -1,0 +1,96 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+}
+.Services img{
+    display: flex;
+    flex: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: rgb(15, 151, 10);
+    margin-bottom: 50px;
+    color: white;
+}
+header p{
+    margin-left: 5px;
+}
+#AboutButton{
+    width: 100px;
+    height: 175px;
+    align-self: flex-end;
+    margin-right: 35px;
+    border: none;
+    color: white;
+    background-color: rgb(15, 151, 10);
+    font-size: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contact{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 50px;
+background-color: whitesmoke;
+}
+.Services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+}
+.Service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 200px;
+    height: 600px;
+}
+#AndMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 400px;
+}
+#quote1{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: whitesmoke;
+    font-size: 22px;
+    
+}
+#quote2{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: whitesmoke;
+    font-size: 22px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(15, 151, 10);
+    min-height: 150px;
+    max-height: 300px;
+}

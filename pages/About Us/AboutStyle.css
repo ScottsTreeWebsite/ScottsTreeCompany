@@ -1,0 +1,43 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: rgb(15, 151, 10);
+    margin-bottom: 50px;
+    color: white;
+}
+header p{
+    margin-left: 5px;
+}
+#HomeButton{
+    width: 100px;
+    height: 175px;
+    align-self: flex-end;
+    margin-right: 35px;
+    border: none;
+    color: white;
+    background-color: rgb(15, 151, 10);
+    font-size: 30px;
+}
+main{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin: 0px;
+    background-color: rgb(15, 151, 10);
+    min-height: 150px;
+    max-height: 300px;
+}
